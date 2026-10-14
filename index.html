@@ -2,13 +2,38 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Calculator</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="display">0</div>
-  <div id="buttons">
-    <button data-key="7">7</button>
+  <div class="calc">
+    <div id="display">0</div>
+    <div id="buttons">
+      <button data-key="C">C</button>
+      <button data-key="Backspace">⌫</button>
+      <button data-key="%">%</button>
+      <button data-key="/">÷</button>
+
+      <button data-key="7">7</button>
+      <button data-key="8">8</button>
+      <button data-key="9">9</button>
+      <button data-key="*">×</button>
+
+      <button data-key="4">4</button>
+      <button data-key="5">5</button>
+      <button data-key="6">6</button>
+      <button data-key="-">−</button>
+
+      <button data-key="1">1</button>
+      <button data-key="2">2</button>
+      <button data-key="3">3</button>
+      <button data-key="+">+</button>
+
+      <button data-key="0" class="zero">0</button>
+      <button data-key=".">.</button>
+      <button data-key="=" class="equals">=</button>
+    </div>
   </div>
   <script src="script.js"></script>
 </body>
