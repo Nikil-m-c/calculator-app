@@ -1,40 +1,20 @@
-body {
-  font-family: sans-serif;
-  background: #eef1f4;
+#suggest {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
+  gap: 8px;
+  min-height: 34px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
 }
-.calc {
-  width: 320px;
-  background: #222a33;
-  padding: 16px;
-  border-radius: 16px;
+#suggest .chip {
+  font-size: 0.85rem;
+  padding: 6px 10px;
+  background: #4a5563;
+  color: #fff;
+  border-radius: 14px;
 }
-#display {
-  background: #dfe6d3;
-  text-align: right;
-  font-size: 2rem;
-  padding: 20px 12px;
-  border-radius: 8px;
-  margin-bottom: 14px;
-  overflow-x: auto;
+#mic {
+  width: 100%;
+  margin-bottom: 10px;
+  background: #2b6cb0;
+  color: #fff;
 }
-#buttons {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-}
-button {
-  font-size: 1.3rem;
-  padding: 16px 0;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-}
-button:hover { background: #cfd6dd; }
-button:active { transform: scale(0.96); }
-.zero { grid-column: span 2; }
-.equals { background: #2b6cb0; color: #fff; }
